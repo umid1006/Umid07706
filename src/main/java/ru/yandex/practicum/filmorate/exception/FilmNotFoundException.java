@@ -1,0 +1,20 @@
+package ru.yandex.practicum.filmorate.exception;
+
+public class FilmNotFoundException extends RuntimeException {
+
+    public FilmNotFoundException() {
+        super();
+    }
+
+    public FilmNotFoundException(String message) {
+        super(message);
+    }
+
+    public FilmNotFoundException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public FilmNotFoundException(Throwable cause) {
+        super(cause);
+    }
+}
